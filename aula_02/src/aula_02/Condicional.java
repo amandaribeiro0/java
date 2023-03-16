@@ -1,10 +1,10 @@
-package aula_01;
+package aula_02;
 // Importando libs
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
 
-public class Aula01 {
+public class Condicional {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,12 +16,9 @@ public class Aula01 {
 		
 		//Declara Var
 		double numero01, numero02;
-		String nome;
 		
-		// Pede para usuario inserir os dados e recebe eles
-		System.out.println("Digite seu nome: ");
-		nome = leia.nextLine();		
 		
+		// Pede para usuario inserir os dados e recebe eles		
 		System.out.println("Digite o primeiro número: ");
 		numero01 = leia.nextDouble();
 		
@@ -31,11 +28,16 @@ public class Aula01 {
 		
 		
 		// df.format : importa a mascara feita na primeira linha
-		System.out.println("Nome: " + nome);
 		System.out.println("\nSoma: " + df.format(numero01 + numero02));
 		System.out.println("Subtração: " + df.format(numero01 - numero02));
 		System.out.println("Multiplicação: " + df.format(numero01 * numero02));
+		
+		if (numero02 !=0) {
 		System.out.println("Divisão: " + df.format(numero01 / numero02));
+		} else {
+			System.out.println("Divisão: Não existe divisão por zero");
+		}
+		
 		System.out.println("Potencia: " + df.format(Math.pow(numero01 ,numero02)));
 		System.out.println("Raíz Quadrada de " + numero01 + ": " + df.format(Math.sqrt(numero01)));
 		System.out.println("Raíz Quadrada de " + numero02 + ": " + df.format(Math.sqrt(numero02)));
