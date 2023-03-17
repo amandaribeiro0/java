@@ -39,7 +39,7 @@ public class Aula01 {
 		System.out.println("Potencia: " + df.format(Math.pow(numero01 ,numero02)));
 		System.out.println("Raíz Quadrada de " + numero01 + ": " + df.format(Math.sqrt(numero01)));
 		System.out.println("Raíz Quadrada de " + numero02 + ": " + df.format(Math.sqrt(numero02)));
-		
+
 		// Chama o leia para sumir o warning
 		leia.close();
 	}
