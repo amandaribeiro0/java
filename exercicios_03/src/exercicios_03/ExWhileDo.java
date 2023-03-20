@@ -7,7 +7,6 @@ public class ExWhileDo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner leia = new Scanner(System.in);
-
 		int numero, soma = 0;
 		
 		do {
@@ -19,9 +18,6 @@ public class ExWhileDo {
 		}
 		while (numero != 0);
 			
-
-		
 		System.out.println("A soma dos números positivos é: " + soma);
 	}
-
 }
