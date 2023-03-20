@@ -14,16 +14,16 @@ public class Vetor01 {
 		numero = leia.nextInt();
 
 		for (int contador = 0; contador < vetorInteiros.length; contador++) {
-			if (vetorInteiros[contador] == numero) {
-				System.out.println("O numero " + numero + " está localizado na posição: " + contador);
-				System.exit(0);
-			}
+					if (vetorInteiros[contador] == numero) {
+						System.out.println("O número " + numero + " está localizado na posição: " + contador);
+						System.exit(0);
+					}
 		}
 		for (int contador = 0; contador < vetorInteiros.length; contador++) {
-			if (numero != vetorInteiros[contador]) {
-				System.out.println("Número "+ numero + " não foi encontrado");
-				System.exit(0);
-			}	
+					if (numero != vetorInteiros[contador]) {
+						System.out.println("Número "+ numero + " não foi encontrado");
+						System.exit(0);
+					}	
 		}
 		
 	}
