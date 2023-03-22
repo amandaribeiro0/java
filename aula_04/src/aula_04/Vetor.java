@@ -16,7 +16,7 @@ public class Vetor {
 
 		for (int contador = 0; contador < vetorInteiros.length; contador++) {
 			if (vetorInteiros[contador] == numero)
-				System.out.println("O numero " + numero + " está localizado na posição: " + vetorInteiros[contador]);
+				System.out.println("Posição [" + contador + "] = " + vetorInteiros[contador]);
 		}
 
 		for (int contador = 0; contador < vetorFloat.length; contador++) {
