@@ -26,13 +26,13 @@ public class Lista {
 
 			switch (opcao) {
 			case 1:
-				System.out.println("Cadastrar nota");
-				System.out.println("Digite uma nota");
+				System.out.println("Cadastrar nota.");
+				System.out.println("Digite uma nota:");
 				notas.add(leia.nextDouble());
 		
 				break;
 			case 2:
-				System.out.println("Listar todas as notas");
+				System.out.println("Listar todas as notas.");
 				if (notas.isEmpty()) {
 					System.out.println("Não existem notas cadastradas.\n");
 				}else {
@@ -41,7 +41,7 @@ public class Lista {
 				}}
 				break;
 			case 3:
-				System.out.println("Buscar uma notas");
+				System.out.println("Buscar uma notas.");
 				System.out.println("Digite uma nota: ");
 				nota = leia.nextDouble();
 				
@@ -53,14 +53,14 @@ public class Lista {
 				
 				break;
 			case 4:
-				System.out.println("Remover uma nota");
-				System.out.println("Digite uma nota");
+				System.out.println("Remover uma nota.");
+				System.out.println("Digite uma nota:");
 				nota = leia.nextDouble();
 				notas.remove(nota);
 				break;
 			case 5:
-				System.out.println("Atualizar uma nota");
-				System.out.println("Digite a nota que deseja remover");
+				System.out.println("Atualizar uma nota.");
+				System.out.println("Digite a nota que deseja atualizar:");
 				nota = leia.nextDouble();
 				System.out.println("Digite a nova nota: ");
 				var newNota = leia.nextDouble();
@@ -71,6 +71,7 @@ public class Lista {
 					System.out.println("Opção escolhida é invalida");
 			}
 		} while (opcao != 6);
+		leia.close();
 	}
 
 }
