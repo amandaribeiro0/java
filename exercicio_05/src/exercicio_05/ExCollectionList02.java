@@ -16,7 +16,7 @@ public class ExCollectionList02 {
 			i++;
 		} while (i < 5);
 
-		System.out.println("\nListar todas as cores:");
+		System.out.println("\nListar todas as cores digitadas:");
 		for (var eCor : cores) {
 			System.out.println(eCor);
 		}
