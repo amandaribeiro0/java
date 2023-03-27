@@ -12,5 +12,13 @@ public class TestaGame {
 		
 		g1.visualizar();
 		g2.visualizar();
+		
+		//testa console
+		Console c1 = new Console (3, "Fifa", 2, "Amanda", data, 150.0f, "XBOX");
+		c1.visualizar();
+		
+		//testa jogo
+		Jogo j1 = new Jogo (3, "Fifa", 2, "Amanda", data, 150.0f,5);
+		j1.visualizar();
 	}
 }
