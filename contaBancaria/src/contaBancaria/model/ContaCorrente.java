@@ -8,7 +8,8 @@ public class ContaCorrente extends Conta{
 		super(numero, agencia, tipo, titular, saldo);
 		this.limite = limite;
 	}
-
+	
+	
 	public float getLimite() {
 		return limite;
 	}
