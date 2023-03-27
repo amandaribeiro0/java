@@ -63,6 +63,6 @@ public class Funcionario {
 		System.out.println("Cargo: " + this.cargo);
 		System.out.println("CPF: " + this.cpf);
 		System.out.println("Data de Admissão: " + this.dataAdmissao);
-		System.out.println("*****************************\n");
+
 	}
 }
