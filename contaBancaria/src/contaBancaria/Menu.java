@@ -15,25 +15,15 @@ public class Menu {
 		int opcao, numero, agencia, tipo, aniversario, numeroDestino;
 		String titular;
 		float saldo, limite, valor;
-		Conta c1 = new Conta(1, 123, 1, "Amanda", 5000.00f);
-
-		c1.visualizar();
 		
 		// Testes conta corrente
 		ContaCorrente cc1 = new ContaCorrente(2, 123, 1, "Amandica", 5000.00f, 1000.0f);
-		cc1.visualizar();
-		cc1.sacar(20000);
-		cc1.visualizar();
-		cc1.depositar(536f);
 		cc1.visualizar();
 		
 		//Teste poupança
 		ContaPoupanca cp1 = new ContaPoupanca(3, 123, 2, "Amandinha", 1000.0f, 17);
 		cp1.visualizar();
-		cp1.sacar(10.0f);
-		cp1.visualizar();
-		cp1.depositar(510f);
-		cp1.visualizar();
+		
 		
 		while (true) {
 			System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_PURPLE
