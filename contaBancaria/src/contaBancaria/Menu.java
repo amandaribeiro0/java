@@ -23,7 +23,8 @@ public class Menu {
 		//Teste poupança
 		ContaPoupanca cp1 = new ContaPoupanca(3, 123, 2, "Amandinha", 1000.0f, 17);
 		cp1.visualizar();
-		
+		ContaPoupanca cp2 = new ContaPoupanca(4, 333, 2, "Amanda", 5500.0f, 9);
+		cp2.visualizar();
 		
 		while (true) {
 			System.out.println(Cores.ANSI_BLACK_BACKGROUND + Cores.TEXT_PURPLE
